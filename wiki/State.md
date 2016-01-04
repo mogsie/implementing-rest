@@ -52,3 +52,7 @@ Since we have three types of states, talking about state transitions can be tric
 
 Since conversational state is something to avoid, we won't talk about conversational state transitions.  The idea is that since there is no conversational state (beyond that of the current "page" so to speak), 
 
+
+See also:
+- [*Identifying Application State* — TAG Finding 01 December 2011](http://www.w3.org/2001/tag/doc/IdentifyingApplicationState-20111201) by w3c
+- [*REST, where's my state?* — HTTP interactions should be stateless, but two kinds of state are involved](http://ruben.verborgh.org/blog/2012/08/24/rest-wheres-my-state/) by Ruben Verborgh
