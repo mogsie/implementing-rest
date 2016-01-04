@@ -14,18 +14,15 @@ In essence, it means that the server should process each request "independently"
 
 Fielding asserts that the "_constraint induces the properties of visibility, reliability, and scalability._"  If you violate the stateless constraint it means you might
 
-  * not be able to "understand" a request just by looking at it
-  * not be able to recover from partial failuress
-  * not be able to scale as well
-
-
-
+* not be able to "understand" a request just by looking at it
+* not be able to recover from partial failuress
+* not be able to scale as well
 
 
 = Contentious examples =
 
-  * um, shopping cart.  POST an item to /cart/2/additem →  later POST /cart/2/checkout
+* um, shopping cart.  POST an item to /cart/2/additem →  later POST /cart/2/checkout
 
 = "Talk page" :-) =
 
-  * Is there a reason why statelessness and unsafe methods don't fare well together?  Do the benefits of statelessness somehow correlate with safe methods?  Investigate.
+* Is there a reason why statelessness and unsafe methods don't fare well together?  Do the benefits of statelessness somehow correlate with safe methods?  Investigate.
