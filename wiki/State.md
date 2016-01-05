@@ -1,7 +1,7 @@
 State can mean many things in a RESTful environment.  There are three main types of State:
 
 - *Resource State* — think of a static web server, it has some files on its file system.  The collection of files at any point in time are that server's collective resource state.
-- *Application State* — think og a web browser viewing a specific web page, and the text, imagery and so on that the user is viewing and interacting with.  The browser window *is* the application state.
+- *Application State* — think of a web browser viewing a specific web page, and the text, imagery and so on that the user is viewing and interacting with.  The browser window *is* the application state.
 
 The first two states are states that we want to have, yet none of these have directly to do with the *stateless* nature of HTTP, the "stateless" constraint in REST.  Statelessness focuses on a third type of state:
 
